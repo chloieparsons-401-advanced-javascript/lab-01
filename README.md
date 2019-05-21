@@ -9,8 +9,8 @@
 
 * Travis: https://www.travis-ci.com/chloieparsons-401-advanced-javascript/lab-01
 
-submission PR
-
+* Submission PR: 
+https://github.com/chloieparsons-401-advanced-javascript/lab-01/pull/2
 
 back-end (when applicable)
 front-end (when applicable)
