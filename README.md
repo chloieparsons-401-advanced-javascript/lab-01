@@ -7,8 +7,7 @@
 # Links and Resources:
 * Heroku: https://advanced-javascript-lab-01.herokuapp.com/
 
-* Travis: https://www.travis-ci.com/
-chloieparsons-401-advanced-javascript/lab-01
+* Travis: https://www.travis-ci.com/chloieparsons-401-advanced-javascript/lab-01
 
 submission PR
 
