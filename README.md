@@ -7,40 +7,22 @@
 # Links and Resources:
 * Heroku: https://advanced-javascript-lab-01.herokuapp.com/
 
-* Travis: https://www.travis-ci.com/
-chloieparsons-401-advanced-javascript/lab-01
+* Travis: https://www.travis-ci.com/chloieparsons-401-advanced-javascript/lab-01
 
-submission PR
+* Submission PR
 
+# Modules
+  * arithmetic.js
+  * greet.js
 
-back-end (when applicable)
-front-end (when applicable)
-Documentation
-api docs (API servers)
-jsdoc (Server assignments)
-styleguide (React assignments)
-Modules
-modulename.js
-Exported Values and Methods
-foo(thing) -> string
-Usage Notes or examples
+## Exported Values and Methods
+  ``` 
+arithmetic.add(a,b) -> a+b;
+arithmetic.subtract(a,b) -> a-b;
+arithmetic.multiply(a,b) -> a*b;
+arithmetic.divide (a,b) -> a/b;
+```
 
-bar(array) -> array
-Usage Notes or examples
+## Tests
 
-Setup
-.env requirements
-PORT - Port Number
-MONGODB_URI - URL to the running mongo instance/db
-Running the app
-npm start
-Endpoint: /foo/bar/
-Returns a JSON object with abc in it.
-Endpoint: /bing/zing/
-Returns a JSON object with xyz in it.
-Tests
-How do you run tests?
-What assertions were made?
-What assertions need to be / should be made?
-UML
-Link to an image of the UML for your application and response to events
+* ```npm test```
