@@ -10,14 +10,8 @@
 * Travis: https://www.travis-ci.com/chloieparsons-401-advanced-javascript/lab-01
 
 * Submission PR: 
-https://github.com/chloieparsons-401-advanced-javascript/lab-01/pull/2
+https://github.com/chloieparsons-401-advanced-javascript/lab-01/pull/4
 
-back-end (when applicable)
-front-end (when applicable)
-Documentation
-api docs (API servers)
-jsdoc (Server assignments)
-styleguide (React assignments)
 Modules
 modulename.js
 Exported Values and Methods
