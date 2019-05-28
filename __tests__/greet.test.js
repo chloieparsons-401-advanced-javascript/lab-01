@@ -2,15 +2,30 @@
 
 const greet = require('../lib/greet.js');
 
-test('should return string with Hello, world.', () => {
-  let actual = greet.hello('world'), 
-    expectedValue = 'Hello, world.';
-  expect(actual).toBe(expectedValue);
-});
+describe('/lib/greet.js', () => {
 
-test('should return null if input is not a string', () => {
-  expect(greet.hello(1)).toBeNull();
-  expect(greet.hello()).toBeNull();
-  expect(greet.hello({})).toBeNull();
-  expect(greet.hello([])).toBeNull();
+  it('does not allow non-strings', () => {
+    let message = greet.sayHello(1);
+    expect(message).toBeNull();
+  });
+
+  it('does not allow non-strings', () => {
+    let message = greet.sayHello([]);
+    expect(message).toBeNull();
+  });
+
+  it('does not allow non-strings', () => {
+    let message = greet.sayHello({});
+    expect(message).toBeNull();
+  });
+  
+  it('does not allow non-strings', () => {
+    let message = greet.sayHello(null);
+    expect(message).toBeNull();
+  });
+
+  it('returns hello world with world as first argument', () => {
+    let message = greet.sayHello('world');
+    expect(message).toBe('Hello world');
+  });
 });
