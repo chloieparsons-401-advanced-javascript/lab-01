@@ -10,6 +10,7 @@
 * Travis: https://www.travis-ci.com/chloieparsons-401-advanced-javascript/lab-01
 
 * Submission PR
+  https://github.com/chloieparsons-401-advanced-javascript/lab-01/pull/4
 
 # Modules
   * arithmetic.js

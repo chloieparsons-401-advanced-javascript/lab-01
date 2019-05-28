@@ -1,4 +1,3 @@
-    
 'use strict';
 
 const greet = require('../lib/greet.js');
@@ -29,5 +28,4 @@ describe('/lib/greet.js', () => {
     let message = greet.sayHello('world');
     expect(message).toBe('Hello world');
   });
-
 });
